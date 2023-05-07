@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.logo{
+    margin: 15px 30px;
+    border-right: 2px solid white;
+    
+}
+.logo a img{
+width: 60%;
+}
+.header-list ul {
+    margin-top: 20px;
+margin-right: 150px;
+display: grid;
+grid-template-rows: repeat(1,1fr);
+grid-template-columns: repeat(5,1fr);
+}
+.header-list ul li{
+    list-style: none;
+display: grid;
+justify-content:space-around ;
+}
+.header-list ul :nth-child(2){
+    margin-right: 25px;
+    display: flex;
+    justify-self: center;
+    
+    
+}
+.header-list ul :nth-child(3){
+    display: flex;
+    justify-self: flex-start;
+
+    
+}
+.header-list ul :nth-child(4){
+    display: flex;
+    justify-self: flex-end;
+}
+.header-list ul :nth-child(5){
+    margin-left: 40px;
+    display: flex;
+    justify-self: flex-end;
+}
+.header-list ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ .header button{
+    margin: 10px 50px;
+width: 15%;
+height: 60%;
+border-radius: 5px;
+padding: 4px 15px;
+background: #ba0cc5;
+color: #ffffff;
+}
+.main-section{
+    display: grid;
+    grid-template-rows: repeat(3,50% 20% 10%);
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.main-section div{
+    margin: 150px 110px 95px 175px;
+}
+.main-section h1{
+    /* margin: 5px 210px; */
+    display: grid;
+    align-self: flex-end;
+    font-size: 60px;
+    text-align: center;
+    line-height: 65px;
+    color: rgb(247, 242, 242);
+    font-weight: 700;
+}
+.main-section p{
+    margin: 40px 50px 120px 100px;
+    font-size: 26px;
+    color: rgba(247, 247, 247, 0.9);
+    font-weight: 100;
+}
+.main-section span button
+{
+    margin-top: 30px;
+ display: grid; 
+ justify-self: center;
+ align-self:flex-start;
+ padding: 8px 20px;
+ border-radius: 5px;
+margin-bottom: 100px;
+background-color:#ba00c5;
+
+color: #ffffff;
+}
+button,a{
+    cursor: pointer;
+}

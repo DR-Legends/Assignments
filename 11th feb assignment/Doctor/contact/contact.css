@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.816);
+  background-color: rgb(239, 241, 242);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  height: 40px;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+li {
+  list-style: none;
+}
+ul {
+  position: relative;
+  left: 50px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 90px);
+}
+li:first-child {
+  display: grid;
+  justify-self: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+div {
+  margin-top: 50px;
+  padding: 10px;
+  border: 2px solid black;
+  width: 25%;
+  height: 85%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(184, 177, 177),-5px -5px 5px rgb(197, 185, 185);
+}
+h1 {
+  margin: 10px;
+  text-align: center;
+}
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.929);
+  width: 100%;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+input{
+  height: 2em;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(7, 234, 154);
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 15px;
+}
+::placeholder
+{
+  position: relative;
+  left: 5px;
+}

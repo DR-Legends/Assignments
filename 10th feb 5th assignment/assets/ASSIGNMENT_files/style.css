@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(17, 26, 47);
+    color: white;
+
+}
+nav  {
+    display: flex;
+    justify-content: end;
+}

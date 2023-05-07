@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  height: 40px;
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+li {
+  list-style: none;
+}
+ul {
+  position: relative;
+  left: 50px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 90px);
+}
+li:first-child {
+  display: grid;
+  justify-self: center;
+}
+main {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.doctor {
+  height: 88%;
+  position: absolute;
+  right: 5px;
+  z-index: 254;
+}
+.greenBox {
+  width: 27%;
+  position: absolute;
+  right: 10px;
+  top: 180px;
+}
+img:last-child {
+  position: absolute;
+  width: 25%;
+  bottom: 15px;
+  right: 0px;
+}
+main {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.leftMain {
+  padding: 20px;
+  width: 48vw;
+  margin: 100px 0px 0px 135px;
+  position: relative;
+}
+#topAngle {
+  width: 4%;
+}
+.leftMain h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  line-height: 45px;
+  margin-right: 50px;
+}
+.leftMain p {
+  margin-top: 10px;
+  font-size: 0.77em;
+  line-height: 20px;
+}
+.leftMain button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1em;
+  position: relative;
+  right: 5px;
+  color: white;
+  background-color: rgba(3, 248, 162, 0.978);
+}
+#bottomAngle {
+  width: 4%;
+  position: relative;
+  left: 250px;
+}
+#mouse {
+  position: absolute;
+  z-index: 212;
+  width: 5%;
+  bottom: 0px;
+}

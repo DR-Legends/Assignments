@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0ch;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(195, 195, 195);
+    /* height: 100vh; */
+
+}
+
+.card{
+   background-color: rgb(221, 221, 221);
+    margin: 15px 200px 10px 370px;
+    width: 320px;
+    height: 450px;
+    border: 0px solid black;
+    box-shadow: 5px 5px 5px gray,-5px -5px  5px  white;
+    border-radius: 10px;
+    
+}
+.navi{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image{
+    
+display: block; 
+margin-left: auto;
+margin-right: auto;
+/* width: 50%; */
+/* height: 30%1 */
+width: 200px;
+height: 200px;
+/* text-align: center; */
+border-radius: 70%;
+border: 0px solid black;
+    box-shadow: 2px 2px 2px gray,-5px -5px  5px  white;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+h3{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.icon{
+margin-top: 15px;
+display: grid;
+grid-template-rows: repeat(1,1fr);
+grid-template-columns: repeat(4,1fr);
+justify-items: center;
+font-size: x-large;
+
+}
+.icon i:first-child{
+    
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    
+    box-shadow: 2px 2px 5px  grey,-2px -2px  5px  white; 
+}
+.icon i:nth-child(2){
+    color:  #ef761a ;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+   
+    box-shadow: 2px 2px 5px  grey,-2px -2px  5px  white; 
+}
+.icon i:nth-child(3){
+    color:#f08080;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    
+    box-shadow: 2px 2px 5px  grey,-2px -2px  5px  white; 
+}
+.icon i:last-child{
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0px solid  rgb(191, 191, 191) ;
+    box-shadow: 2px 2px 5px  grey,-2px -2px  5px  white; 
+}
+
+.btns{
+    display: grid;
+    margin-top: 20px;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    
+}
+section button{
+    padding: 8px 15px;
+    border-radius: 3px;
+    background-color: white;
+    border: 0px solid black;
+    box-shadow: 2px 2px 2px gray,-2px -2px  2px  white;
+}
+.likee{
+    margin: 15px 30px 5px 35px;
+    
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    font-size: 18px;
+}
+.likee div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-right: 1px solid black;
+    padding-right: 25px;
+} 
+  button:hover{
+    background-color: rgb(140, 0, 255);
+    color: rgb(245, 244, 241);
+    font-size: large;
+    cursor: pointer;
+  } 
+  button:after{
+    color: red;
+  }
+
+
+
