@@ -1,0 +1,8 @@
+svg {
+    background-color: rgb(133, 120, 120);
+    height: 100vw;
+}
+svg img{
+    height: 100vh;
+    width: 100vw;
+}
